@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+
+body{
+    background-color: #2B303B;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+nav.menuPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   background-color: #636B7C;
+   margin: 1em;
+   border-radius: 1em;
+}
+
+nav.menuPrincipal h1{
+    margin-left: 1em;
+    font-size: 2em;
+    color:#D3DBEB;
+}
+
+
+nav.menuPrincipal ul li {
+    display: inline-flex;
+    list-style: none;
+    padding: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: #6D7C9A;
+    margin-right: 1em;
+    border-radius: 0.5em;
+    
+}
+
+nav.menuPrincipal ul li:hover {
+
+    background-color: #9CA6BB;
+    
+}
+
+
+nav.menuPrincipal ul li a{
+font-size: 1.1em;
+text-decoration: none;
+color: #D3DBEB;
+}
