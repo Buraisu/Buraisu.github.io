@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brais Eshop</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <nav class="menuPrincipal">
+
+            <a href="index.html"> <h1> Buraisu Eshop</h1> </a>
+
+        <ul>
+                <a href="index.html"> <li> Inicio </li></a>
+                <a href="trabajar.html">  <li> Trabajar con nosotros </li></a>
+                <a href="#"> <li> Soporte </li></a>
+
+        </ul>
+
+    </nav>
+
+         <form>
+    <fieldset>
+		<legend> Rellene los siguientes campos: </legend>
+
+	<p><label for="nombre">Nombre : </label>
+	<input type="text" name="txtNombre" id="nombre" required>
+	</p>
+    <p>
+            <label>Nº de Contacto:<input type="phone" name="txtNumero" maxlength="9" required ></label>
+            </p>
+            
+            <p>
+            <label> Correo:  <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required></label>
+        </p>
+	
+	<p><select>
+	<option   value="puesto" disabled selected> Por favor seleccione puesto: </option>
+		<option value="programador" >Programador </option>
+		<option value="diseñador"> Diseñador</option>
+        <option value="mantenimiento"> Tester de Juegos</option>
+    </select></p>
+    
+    <p>Acepta estos terminos:</p>
+<p>	<label> <input type="checkbox" name="aceptar" value="confidencialidad" required> Mis datos serán almacenados y solo visto por Buraisu Eshop </label></p>
+     
+    <p>
+    <input type="submit" name="btnEnviar" value="Enviar">
+</p>
+</fieldset>
+</form>
+<p>
+    Si no quieres enviar el formulario, envía un correo electrónico.
+</p>
+<p><a id="mail" href="mailto:braisrodriguez@ciclosmontecastelo.com"> Enviar</a> </p>
+
+    </body>
+    </html>
