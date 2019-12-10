@@ -201,3 +201,13 @@ body.soporte ol li a{
     color: white;
     font-size: 1.1em;
 }
+
+h2{
+    color: white;
+    text-align: center;
+    background-color: #636B7C;
+    padding: 1em;
+    border: 1px solid black;
+    margin-left: 10em;
+    margin-right: 20em;
+}
