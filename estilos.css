@@ -104,3 +104,40 @@ div.tipoJuego ul li:hover{
 article.fav{
     background-color: #CF2A2A;
 }
+
+p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    color: white;
+    display: flex;
+    justify-content: center;    
+}
+
+a#mail{
+    color: lightcyan;
+    font-size: 1.2em;
+    border: 1px solid white;
+    padding: 0.5em;
+}
+
+a#mail:hover{
+
+    font-size: 1.3em;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-family: 'Tomorrow', sans-serif;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+background-color: gray;
+}
