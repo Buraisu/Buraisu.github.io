@@ -141,3 +141,63 @@ input[type="submit"]{
 input[type="submit"]:hover{
 background-color: gray;
 }
+
+div.soporte ul a{
+    padding: 1em;
+    background-color: #6D7C9A;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    font-size: 200%;
+    
+}
+
+div.soporte ul{
+margin-top: 15em;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+div.soporte li{
+    list-style: none;
+}
+
+
+
+nav.soporte {
+    display: flex;
+    justify-content: center;
+    background: rgb(16,179,168);
+    background: linear-gradient(90deg, rgba(16,179,168,1) 14%, rgba(255,0,0,1) 100%);
+   margin: 1em;
+   margin-left: 20em;
+   margin-right: 20em;
+   border: 2px solid;
+   border-radius: 5em;
+   
+}
+
+body.soporte{
+    background-color: #7C8892;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+body.soporte ol{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid black;
+    margin: 3em;
+}
+
+body.soporte ol li{
+font-style: italic;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+body.soporte ol li a{
+    color: white;
+    font-size: 1.1em;
+}
