@@ -40,8 +40,67 @@ nav.menuPrincipal ul li:hover {
 }
 
 
-nav.menuPrincipal ul li a{
+nav.menuPrincipal ul a{
 font-size: 1.1em;
 text-decoration: none;
 color: #D3DBEB;
+}
+
+article{
+    display: inline-flex;
+    background-color: #9CA6BB;
+   text-align: center;
+   font-size: 1.5em;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+img{
+    border-radius: 1em;
+    width: 400px;
+    height: 300px;
+}
+
+img.fav{
+    width: 600px;
+    height: 400px;
+}
+
+article:hover {
+    background-color: #6D7C9A;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:link{
+    color: black;
+}
+
+div.cuerpo{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.tipoJuego ul li {
+    list-style: none;
+    padding: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: #6D7C9A;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    font-size: 125%;
+    
+}
+
+div.tipoJuego ul li:hover{
+    background-color: #9CA6BB;
+}
+   
+article.fav{
+    background-color: #CF2A2A;
 }
